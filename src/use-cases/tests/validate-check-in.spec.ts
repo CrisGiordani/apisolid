@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
-import { InMemoryCheckInsRepository } from '../repositories/in-memory/in-memory-check-ins-repository'
-import { ValidateCheckInUseCase } from './validate-check-in'
+import { InMemoryCheckInsRepository } from '../../repositories/in-memory/in-memory-check-ins-repository'
+import { ValidateCheckInUseCase } from '../validate-check-in'
 
 let checkInsRepository: InMemoryCheckInsRepository
 let validateCheckInUseCase: ValidateCheckInUseCase
